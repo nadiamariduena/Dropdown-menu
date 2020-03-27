@@ -7,8 +7,9 @@ function init() {
   const logo = document.querySelector(".logo");
 
   // -----------------------------------------------------------
-  // Careful in how you write the name of the library, it took me few minutes until i realized i don't need to write the library names in camelC*ase because of that the curtain didn't drop.
-  // this section is connected to the line 29:  hamburger.addEventListener("click", () => {
+  // Careful in how you write the name of the library, it took me few minutes until i realized i don't...
+   // need to write the library names in camelC*ase because of that the curtain didn't drop.
+  // this section is connected to the line 38:  hamburger.addEventListener("click", () => {
   const tl = new TimelineMax({ paused: true, reversed: true });
   // const tl = new TimelineMax({ paused: true, reversed: true });
   //
