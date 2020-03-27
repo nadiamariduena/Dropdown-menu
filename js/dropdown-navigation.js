@@ -34,7 +34,7 @@ function init() {
   // ----------the--backward-effect-after-opening-the dropdown---------------
   //
   //
-  // this section is connected to the:  const tl = new TimelineMax({ paused: true, reversed: true });
+  // this section is connected to the line 13:  const tl = new TimelineMax({ paused: true, reversed: true });
   hamburger.addEventListener("click", () => {
     tl.reversed() ? tl.play() : tl.reverse();
     // it will check these 3 steps, tl.reversed() ? tl.play() : tl.reverse();  so what it will do is: it *checks, it *plays the animation then it *reverse!
