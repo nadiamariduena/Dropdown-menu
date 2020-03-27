@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/styles-navigation.css" />
+    <link rel="stylesheet" href="./css/styles-fonts.css" />
+    <!-- <link rel="stylesheet" href="css/styles-index-new.css" /> -->
+
+    <title>theory | dropdown</title>
+  </head>
+
+  <body>
+    <!-----------Wrapper-Page---------------------------->
+
+    <div id="page">
+      <header>
+        <nav>
+          <h3 class="logo">FL<span>U</span>X<span>U</span>S</h3>
+          <!-- SVG --------------------------------------->
+          <!--  add a class called "menu" inside of the svg-->
+          <svg
+            class="menu"
+            width="43"
+            height="23"
+            viewBox="0 0 43 23"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line y1="1.5" x2="43" y2="1.5" stroke="#000" stroke-width="3" />
+            <line y1="11.5" x2="28" y2="11.5" stroke="#000" stroke-width="3" />
+            <line y1="21.5" x2="16" y2="21.5" stroke="#000" stroke-width="3" />
+          </svg>
+
+          <!--------------------------------------------->
+          <!-- This is the navigation content when clicked and open -->
+          <div class="nav-open">
+            <!-- 1--------- -->
+
+            <div class="services">
+              <ul>
+                <li><a href="#">Version Two</a></li>
+                <li><a href="#">Version Two</a></li>
+                <li><a href="#">Version Two</a></li>
+                <li><a href="#">Version Two</a></li>
+              </ul>
+
+              <h3>Follow</h3>
+              <p>
+                <a href="#" target="_blank">Instagram</a>
+              </p>
+            </div>
+            <!------2----  -->
+
+            <!-- <div class="contact">
+              <ul>
+                <li><a href="#">Version Three</a></li>
+                <li><a href="#">Process</a></li>
+                <li><a href="#">Memento</a></li>
+                <li><a href="#">Process</a></li>
+              </ul>
+
+              <h3>e-mail</h3>
+              <p>example@gmail.com</p>
+            </div> -->
+            <!------------>
+          </div>
+          <!--------------->
+        </nav>
+      </header>
+      <!--  -->
+      <!--  -->
+
+      <section id="top">
+        <h1>WEL<span>CO</span>ME</h1>
+      </section>
+    </div>
+
+    <!-----------NAVIGATION-SCRIPTS----------------------------->
+
+    <!-- IF YOU ADD THE LIBRARY LINKS before doing all the set up of
+the navigation, you are not going to see anything. so you should hide the links
+or add them at the end when the javascript part will come -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/dropdown-navigation.js"></script>
+
+    <!-----------NAVIGATION-SCRIPTS---------------------->
+  </body>
+</html>

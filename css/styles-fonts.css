@@ -1,0 +1,90 @@
+@font-face {
+  src: url(../fonts/Jura-Bold.ttf);
+  font-family: "Jura";
+}
+
+@font-face {
+  src: url(../fonts/FjordOne-Regular.ttf);
+  font-family: "FjordOne";
+}
+
+/*---------Muli----------------------*/
+
+@font-face {
+  src: url(../fonts/Muli-SemiBoldItalic.ttf);
+  font-family: "Muli-SemiBoldItalic";
+}
+
+@font-face {
+  src: url(../fonts/Muli-BoldItalic.ttf);
+  font-family: "BoldItalic";
+}
+
+/*-------------------------------*/
+
+/*---------Rajdhani----------------------*/
+
+@font-face {
+  src: url(../fonts/Rajdhani-Regular.ttf);
+  font-family: "Rajdhani-Regular";
+}
+
+@font-face {
+  src: url(../fonts/Rajdhani-Light.ttf);
+  font-family: "Rajdhani-Light";
+}
+
+/*-------------------------------*/
+@font-face {
+  src: url(../fonts/BungeeHairline-Regular.ttf);
+  font-family: "BungeeHairline";
+}
+
+@font-face {
+  src: url(../fonts/Roboto-Black.ttf);
+  font-family: "Roboto";
+}
+
+/*---------'Arimo----------------------*/
+@font-face {
+  src: url(../fonts/Arimo-Regular.ttf);
+  font-family: "Arimo-Regular";
+}
+
+@font-face {
+  src: url(../fonts/Arimo-Bold.ttf);
+  font-family: "Arimo";
+}
+
+/*---------FrankRuhlLibre----------------------*/
+@font-face {
+  src: url(../fonts/FrankRuhlLibre-Black.ttf);
+  font-family: "FrankRuhlLibre";
+}
+
+@font-face {
+  src: url(../fonts/FrankRuhlLibre-Light.ttf);
+  font-family: "FrankRuhlLibre-Light";
+}
+
+/*---------LATO----------------------*/
+@font-face {
+  src: url(../fonts/Lato-Black.ttf);
+  font-family: "Lato";
+}
+
+@font-face {
+  src: url(../fonts/Lato-Thin.ttf);
+  font-family: "Lato-thin";
+}
+
+/*---------Poppins----------------------*/
+@font-face {
+  src: url(../fonts/Poppins-Light.ttf);
+  font-family: "Poppins-light";
+}
+
+@font-face {
+  src: url(../fonts/Poppins-Medium.ttf);
+  font-family: "Poppins-medium";
+}

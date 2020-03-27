@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/second-bar-styles.css" />
+    <link rel="stylesheet" href="../css/styles-fonts.css" />
+    <title>2 nav bar</title>
+  </head>
+  <body>
+    <!-- ------------------------- -->
+    <div id="page">
+      <!-- ------------------------- -->
+      <!-- ------------------------- -->
+
+      <!-- <h2>Clickable Dropdown</h2>
+      <p>Click on the button to open the dropdown menu.</p> -->
+
+      <!-- 
+
+1 dropdown
+2 droppy-button
+3 myDropdown
+4 dropdown-content
+
+     -->
+
+      <header>
+        <div class="logo"><a href="../index.html">LOGO</a></div>
+        <nav>
+          <ul>
+            <li>HELLO</li>
+            <li>HELLO</li>
+          </ul>
+        </nav>
+
+        <div class="dropdown">
+          <button onclick="catFunction()" class="droppy-button">
+            &#x02261;
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <a href="#NEWS">Home</a>
+            <a href="#PRESS">Press</a>
+            <a href="#SHOP">Shop</a>
+
+            <!--  -->
+            <!--  -->
+            <!--  -->
+          </div>
+        </div>
+      </header>
+
+      <!-- ---end----- -->
+    </div>
+    <!-- ------------------------------------------------------------ -->
+
+    <!-- ------------------------------------------------------------ -->
+    <script>
+      /* when clicking on the button ,it will open/close and show the content */
+      function catFunction() {
+        document.getElementById("myDropdown").classList.toggle("abretesesam");
+      }
+
+      // this will make that the dropdown closes when i click
+      //in another area but inside of it.
+      window.onclick = function(event) {
+        if (!event.target.matches(".droppy-button")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+
+          //   loop
+          //
+          //
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("abretesesam")) {
+              openDropdown.classList.remove("abretesesam");
+            }
+          }
+        }
+      };
+    </script>
+    <!-- ------------------------- -->
+  </body>
+</html>
